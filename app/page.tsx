@@ -30,7 +30,6 @@ export default function Home(): ReactElement {
           <div className="hero-topline"><span>CHƯƠNG IV · TƯ TƯỞNG HỒ CHÍ MINH</span><span>BẢN CHẤT VÀ VAI TRÒ LÃNH ĐẠO</span></div>
           <div className="editorial-title">
             <h1 id="hero-heading" className="course-title"><span className="title-mask"><span>Đảng của giai cấp công nhân</span></span><span className="title-mask"><em>và của dân tộc Việt Nam</em></span></h1>
-            <div className="hero-aside"><p>Đảng như<br />“người cầm lái”.</p><span className="micro">ĐƯỜNG KÁCH MỆNH · 1927</span></div>
           </div>
           <div id="stage-heritage" className="hero-stage" data-scene="hero">
             <div className="hero-cinema">
@@ -54,7 +53,7 @@ export default function Home(): ReactElement {
         </section>
 
         <section id="noi-dung" className="chapter-experience" data-scene="chapters">
-          <div className="chapter-introduction"><div className="eyebrow">II / TÍNH TẤT YẾU CỦA VAI TRÒ LÃNH ĐẠO</div><h2>Cơ sở<br /><em>lý luận</em></h2><p>Ba bước<br />Một kết luận lịch sử</p><span className="micro">TIẾP TỤC ĐỂ XEM TỪNG BƯỚC</span></div>
+          <div className="chapter-introduction"><div className="eyebrow">II / TÍNH TẤT YẾU CỦA VAI TRÒ LÃNH ĐẠO</div><h2>Cơ sở<br /><em>lý luận</em></h2></div>
           <div className="chapter-stack">
             {chapters.map((chapter, index) => (
               <article id={`stage-chapter-${chapter.number}`} className="stack-sheet" key={chapter.number} data-stack-card style={{ '--card-index': index } as CSSProperties}>

@@ -157,7 +157,7 @@
 .home-topic-visual { position: relative; z-index: 1; width: 100%; max-width: 270px; justify-self: center; }
 .home-topic-photo .photo-window { aspect-ratio: 4 / 5; border: 1px solid color-mix(in srgb, var(--stage-accent) 18%, transparent); }
 .home-topic-photo img { filter: saturate(.62) contrast(.92); }
-.home-topic-photo figcaption { display: block; padding-top: 8px; font-size: 6px; line-height: 1.6; }
+.home-topic-photo figcaption { display: block; padding-top: 8px; font-size: 10px; line-height: 1.6; }
 .home-topic-photo figcaption span { display: block; }
 .home-topic-stage-copy { position: relative; z-index: 1; }
 .home-topic-stage-copy h2 { margin: 26px 0 20px; font-size: clamp(38px, 4.1vw, 60px); line-height: 1.12; letter-spacing: -1.4px; }
@@ -266,7 +266,7 @@
   .cinema-message { bottom: 65px; padding-top: 35px; }
   .cinema-message > span { font-size: 7px; letter-spacing: 2px; }
   .cinema-message p { font-size: 46px; letter-spacing: -1.5px; }
-  .editorial .hero-photo figcaption { font-size: 7px; }
+  .editorial .hero-photo figcaption { font-size: 10px; }
   .editorial .hero-bottom { font-size: 6px; gap: 10px; letter-spacing: .8px; }
   .reading-section { padding: 70px 7%; }
   .motion-ready .reading-section { height: 150svh; }
